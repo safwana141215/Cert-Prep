@@ -3,10 +3,20 @@
 <head>
     <meta charset="utf-8" />
     <title>THE Music Store</title>
+
+    <!-- External style sheet (from 21b-main.css) -->
     <link rel="stylesheet" type="text/css" href="21b-main.css" />
+    
+    <!-- Internal style: Paragraphs are set to maroon -->
+    <style>
+        p {
+            color: maroon;
+        }
+    </style>
+
 </head>
 <body>
-<h2>Books and More</h2>
+    <h2>Books and More</h2>
     <a href="#sale">This month's sale</a>
     <p>
         Like music history? How about sheet music. 
@@ -30,8 +40,9 @@
         </p>
     </details>
     
+    <!-- Inline style added here to override internal and external styles (color: fuchsia) -->
     <a name="sale">
-        <p>Special sale! Now through the end of the month, take an extra 10% off of all non-instrument items.</p>
+        <p style="color: fuchsia;">Special sale! Now through the end of the month, take an extra 10% off of all non-instrument items.</p>
     </a>
 </body>
 </html>

@@ -1,7 +1,8 @@
-﻿body
-{
-    font-family:"Segoe UI",Tahoma,sans-serif;
+﻿body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #fab66b; /* Add this line to change the background color */
 }
+
 p {
-    color: navy;
+    color: navy; /* Paragraph text will be navy */
 }

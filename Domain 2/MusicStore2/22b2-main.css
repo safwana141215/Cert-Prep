@@ -1,12 +1,19 @@
-﻿body
-{
-    font-family:"Segoe UI",Tahoma,sans-serif;
-    background-color:#fab66b;
+﻿body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #fab66b;
 }
+
 p {
     color: navy;
 }
+
+/* Class for sale notices */
 .sale {
-    font-weight:bold;
-    background-color:aqua;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+/* ID for sidenote area */
+#sidenote {
+    background-color: #dbd9d9;
 }

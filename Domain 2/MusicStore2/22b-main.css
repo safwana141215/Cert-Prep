@@ -1,8 +1,16 @@
-﻿body
-{
-    font-family:"Segoe UI",Tahoma,sans-serif;
-    background-color:#fab66b;
+﻿/* Apply styles to the body */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #fab66b;
 }
+
+/* Style for paragraph */
 p {
     color: navy;
+}
+
+/* Apply styles for the .sale class */
+.sale {
+    font-weight: bold;
+    background-color: aqua;
 }
